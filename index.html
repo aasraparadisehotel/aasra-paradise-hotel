@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AASRA PARADISE HOTEL</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background:#2c3e50;
+    color:rgb(231, 223, 223);
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    background:url('Background_image_mountain_view.jpeg') center/cover no-repeat;
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+    background:transparent;
+    padding:15px;
+}
+
+.section{
+    padding:40px;
+    text-align:center;
+}
+
+.rooms{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.room{
+    border:1px solid #ddd;
+    width:250px;
+    padding:15px;
+}
+
+.room img{
+    width:100%;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: none;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo img{
+height:50px;
+}
+
+.footer-logo{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.footer-logo img{
+height:50px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">
+<img src="logo.jpg" alt="Hotel Logo">
+<h2>AASRA PARADISE HOTEL</h2>
+</div>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#rooms">Rooms</a></li>
+<li><a href="#amenities">Amenities</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1 class="typewriter">Welcome to AASRA PARADISE HOTEL</h1>
+</section>
+
+<section class="section" id="rooms">
+<h2>Our Rooms</h2>
+
+<div class="rooms">
+
+<div class="room">
+<img src="Deluxe_room.jpeg">
+<h3>Deluxe Room</h3>
+<p>Comfortable room with mountain view.</p>
+</div>
+
+<div class="room">
+<img src="Family_suite.jpg">
+<h3>Family Suite / Duplex Room</h3>
+<p>Spacious suite perfect for families.</p>
+</div>
+
+<div class="room">
+<img src="Suite.jpeg">
+<h3>Luxury Suite</h3>
+<p>Premium luxury experience.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="amenities">
+<h2>Amenities</h2>
+<p>Free WiFi • Restaurant • Swimming Pool • Room Service</p>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p>Email: aasra.resorts@gmail.com</p>
+<p>Phone: +91 78076 55022</p>
+<p>Address: Rakkar, Tehsil Dharamshala, Himachal Pradesh, India</p>
+</section>
+
+<footer>
+<div class="footer-logo">
+<img src="logo.jpg" alt="Aasra Paradise Logo">
+<p>© 2026 AASRA PARADISE HOTEL</p>
+</div>
+</footer>
+
+</body>
+</html>
